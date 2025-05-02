@@ -1,0 +1,2 @@
+python train_tacred_final.py --task_name Tacred --num_k 5 --num_gen 0 >> tacred_bge.txt
+python train_fewrel_final.py --task_name FewRel --num_k 5 --num_gen 0 >> fewrel_bge.txt
